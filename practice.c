@@ -12,4 +12,23 @@ int main()
     return 0;
 }
 
+// Write a C program to Add Two Integers entered by a user
 
+int main()
+{
+    int a, b, sum;
+
+    printf("input firstInterger: ");
+    scanf("%d", &a);
+    printf("UserFirstInput is %d\n", a);
+
+    printf("input SecondInterger: ");
+    scanf("%d", &b);
+    printf("UserSecondNumber is %d\n", b);
+
+    sum = a + b;
+    printf("sum of %d and %d  is %d ", a, b, sum);
+    scanf("%d", &sum);
+
+    return 0;
+}
